@@ -1,5 +1,13 @@
+import Header from "./layouts/header";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="App">
+      <h1>Battleship</h1>
+      {/* add header under title */}
+      <Header />
+    </div>
+  );
 }
 
 export default App;
